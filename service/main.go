@@ -1,23 +1,4 @@
 package main
-//import (
-//	elastic "gopkg.in/olivere/elastic.v3"
-//	"fmt"
-//	"net/http"
-//	"encoding/json"
-//	"log"
-//	"strconv"
-//	"reflect"
-//	//"strings"
-//	"github.com/pborman/uuid"
-//	"context"
-//	"cloud.google.com/go/storage"
-//	"io"
-//	"github.com/auth0/go-jwt-middleware"
-//	"github.com/dgrijalva/jwt-go"
-//	"github.com/gorilla/mux"
-//	"cloud.google.com/go/bigtable"
-//
-//)
 import (
 	elastic "gopkg.in/olivere/elastic.v3"
 	"fmt"
@@ -26,11 +7,16 @@ import (
 	"log"
 	"strconv"
 	"reflect"
-	"context"
-	"cloud.google.com/go/bigtable"
+	//"strings"
 	"github.com/pborman/uuid"
-	"github.com/gorilla/mux"
+	"context"
+	"cloud.google.com/go/storage"
+	"io"
 	"github.com/auth0/go-jwt-middleware"
+	"github.com/dgrijalva/jwt-go"
+	"github.com/gorilla/mux"
+	"cloud.google.com/go/bigtable"
+
 )
 
 
